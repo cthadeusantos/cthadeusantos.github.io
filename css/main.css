@@ -1,0 +1,153 @@
+/*****************
+Settings default
+******************/
+
+/* Main layout*/
+/*#pagewrap1{ padding: 5px; width: auto; margin: 20px auto; }*/
+#header { display: block;
+}
+#nav {
+	display: block;
+	width: 20%;
+	float: left;
+}
+
+#section {
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#footer {
+	display: block;
+	clear: both;
+	padding-top: 40px;
+}
+
+/*#body {background-color: #3baadf; */
+#body {
+	background-color: #6ed3cf;
+}
+
+.site-title {
+	font-size: 26px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left;
+}
+
+.site-title, .site-title:visited {
+	color: #424242;
+}
+
+
+/* unvisited link */
+a:link {
+	color:white;
+}
+
+/* visited link */
+a:visited {
+    color: khaki;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: indigo;
+}
+
+h1.title {
+		font-size: 4.0em;
+		color: #22264b;
+}
+h2.title {
+		font-size: 2.0em;
+		color: #22264b;
+}
+
+.title {
+		/*color: #9068be;*/
+		color: #22264b;
+		font-family: Verdana,Geneva,sans-serif;
+		font-size: 26px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 26.4px;
+	}
+
+p {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+
+p.rightalign{
+	text-align: right;
+	margin-right: 50px;
+}
+p.leftalign{
+	text-align: left;
+	margin-left: 50px;
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+.section-with-bg {
+	background-size: auto;
+	background-image: url('../img/background.jpg');
+	background-color: yellow;
+	background-size: cover;
+}
+
+.imgfooter {
+	width: 3%;
+	height: 3%;
+	align-content: center;
+	margin-left: 70px;}
+
+.imgfooter1 {
+	width: 5%;
+	height: 5%;
+	align-content: center;
+	margin-left: 70px;
+}
+
+.button {
+  /*  background-color: #ea4f4a;*/
+		background-color: #e62739;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+.button1 {border-radius: 8px; width: 60px; }
+.button2 {border-radius: 8px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;     background-color: #6eb928;}

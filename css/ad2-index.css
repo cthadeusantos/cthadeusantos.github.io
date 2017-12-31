@@ -1,0 +1,154 @@
+/* CSS Reaproveitado da AD1 */
+
+/*****************
+Settings default
+******************/
+
+body { background-color:#116688;color:#FFFF00; 	font-family: verdana, liberation;}
+a:link{ color:#FFFF00;}
+a:visited {color:#EEEE00;}
+ol, ul { line-height:200%;}
+/* Main layout*/
+/*#pagewrap1{ padding: 5px; width: auto; margin: 20px auto; }*/
+#header { display: block; margin-bottom: 1px; height: 180px;}
+#nav {display: block; width: 20%; float: left;}
+#section { display: block; width: 77%; float: right; text-align: center;}
+#footer { display: inline-block; align-items: center;text-align: center;}
+
+
+.imgfooter { width: 2%;height: 2%;}
+/****************
+  AD1 - Second question
+ ******************/
+/* Layout header settings*/
+.ender { float: right; text-align: right; font-size: 12px; line-height:150%;}
+.imglogo { float: left; align-content: left; border-bottom: solid; border-bottom-width: 3px;}
+.apres { align-self: center;}
+/* ul inside circle*/
+#nav ul{color: #ffff00; list-style-type: circle; margin-top: 30px}
+
+/***************
+AD1 - Third Question
+****************/
+.listaConsoles {background-color: #ffffff; color:#115566; padding: 10px 10px 10px 50px; margin: 30px 10px 10px 10px; border-color: #000066; border-style: solid; border-style: solid;border-width: 4px; text-align: left; margin-right: auto;}
+.listaConsoles ul{color: #770077; list-style-type: circle; margin: 0px 0px 0px 0px; border-style: none;}
+.listaConsoles .preco{color: #CC0000;}
+
+
+
+/*****************
+AD1 - Fourth question
+******************/
+.tabJogos {border: thin solid;  border-collapse: collapse; background-color: #FFFFFF; color:#000066; font: arial,ubuntu;}
+.tabJogos td,th{border: 2px solid; padding: 6px 12px 6px 12px; border-color:#000066;}
+.tabJogos .imgJogo {width: 80px; height:80px;}
+.tabJogos .preco {color: #CC0000; text-align: center; font-weight: bold;}
+.tabJogos .linTH {background-color: #009944;  color: #FFFFFF; text-align: center; vertical-align: middle;}
+.tabJogos .colTH {text: #FFFFFF; background-color: #2288BB; text-align: left;}
+.tabJogos .Console {font-weight: bold; text-align: center}
+
+/****************
+AD1 - Fifth Question
+****************/
+form {float: right;position: relative;}
+/* NAO DEU CERTO CENTRAR FORMULARIO esta SOBREPONDO NAV se posto na section ou dentro de uma div NAO INCLUIR no codigo final
+.centraFORM {margin: auto; width:50%;} */
+fieldset {background-color: #2288BB;}
+/*input[type=text] {background-color: red} <<< LINHA PARA TESTE */
+input.inputesq {float: left;}
+input.inputdir {float: right;}
+
+label {float:none;}
+/* .labelesq{text-align: left; margin-left: 5px;float: left;padding-top: 10px; } */
+.labeldir{ width:90px; margin-left: 80px;}
+.labelesq{ width: 90px;float:left;display:block;}
+/*.labeldir{text-align: right; margin-right: 30px;float:right;padding-top: 10px; display: block;} */
+/*.labelvalor{ clear: run-in;margin-right: 8px;float: left;padding-top: 10px; display: block;} */
+.labelvalor{ margin-right: 8px;float: left; display: block;margin-top: 10px;}
+
+.textvalor{ margin-right: 8px;float: right; display: block;margin-top: 10px;}
+
+input[name="nome"] { float: inline-block; width: 200px; margin-left: 5px;}
+input[name="cpf"] {float: inline-block; margin-left: 5px; width: 80px;}
+input[name="telefone"] { float: inline-block; width: 80px; margin-left: 5px;}
+input[name="email"] {  float: inline-block; margin-left: 10px;width: 180px;margin-right: 0px;}
+input[name="endereco"] { float: inline-block; width: 420px; margin-left: 5px;}
+
+input[name="valida"] { float: inline-block;margin-left: 5px;}
+input[name="numero"] { float: inline-block;margin-left:5px;}
+input[name="valor"] { float:right; margin-top: 10px;}
+
+input[name="pgto01"] { margin: 20px 7px 20px 7px;}
+input[name="pgto02"] { display: inline-table;margin: 20px 5px 20px 5px; }
+
+select { float: right;}
+select>span {margin-top: 10px}
+
+.alinha {vertical-align: text-bottom;}
+.alinhadireita { float: right;}
+.buttonright { float: right; margin-right: 0px; }
+
+.fsForm { width: 550px; clear: both;}
+.fsResDir {width: 280px; height:280px; float: right;}
+.fsResEsq {width: 240px; height: 280px; float: left;}
+.negrito {font-weight:bold; font-style:italic;}
+.estilotextarea { width: 230px ; height:80px;}
+.divbotoes {clear: both; display:right;text-align: right;}
+/* option{ padding-top: 10px;}*/
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent; padding-top: 5px;}
+
+table {background: blue;}
+
+/***************
+AD2 - First Question
+****************/
+.listaConsoles a:link{color:#770077}
+.listaConsoles a:visited{color:#770077}
+.carrinho { float: left; align-content: left;}
+.itens_css { font-size: 150%}
+.titulo {text-align:left;font-size: 150%; font-weight: bold;}
+
+ /* AD2 - Second Question */
+  .sony { padding:5px;
+    color:#222;
+  /*  font-family:corbel,sans-serif;*/
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: -1px;
+    /*width: 150px;*/
+  }
+
+  .microsoft { padding:5px;
+    color:#222;
+  /*  font-family:corbel,sans-serif;*/
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: -1px;
+    /*width: 150px;*/
+  }
+
+
+  .alinha_questao02 { text-align: center; align: center; padding-top: 10px; padding-bottom: 10px; margin-left: auto;margin-right: auto; margin: 0 auto; font-size: x-large; font-weight: bold; color: navy;}
+  .alinha_questao02b { text-align: center; align: center; padding-top: 10px; padding-bottom: 10px; margin-left: auto;margin-right: auto; margin: 0 auto;}
+  .alinha_questao02c { text-align: center; align: center; padding-top: 10px; padding-bottom: 10px; margin-left: auto;margin-right: auto; margin: 0 auto; font-weight: bold; color: orange;}
+  .alinha_questao02d { text-align: center; align: center; padding-top: 10px; padding-bottom: 10px; margin-left: auto;margin-right: auto; margin: 0 auto;display: inline-block;}
+
+/*  .imagemresize2{
+    display: block;
+    margin-left: 10px;
+    align-items: center;
+  } */
+    .descjogo {text-align: center; weight: 210px; height: 250px; }
+    .imgFab {height: 34px;width: 88px; align-items: center; padding-top: 10px; align-items: center; vertical-align: middle;padding-left: 10px;}
+
+/*    .descricaojogos {border: hidden;  border-collapse: collapse; background-color: #FFFFFF; color:#000066; font: arial,ubuntu;}*/
+
+   .fsCompras {border: 0px groove;  float: right; }
+   .tdCompras {background-color: #2288BB; }
+   .divAlign {align-items: center; vertical-align: middle; display: inline; padding-top: 10px; }
+
+   /** Item teste -  O bucha **/
