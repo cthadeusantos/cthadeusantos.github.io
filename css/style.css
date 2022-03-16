@@ -141,6 +141,21 @@ nav .container .links > a:last-child {
   margin-right: 0;
 }
 
+article {
+  display: block;
+  padding: 0 50px;
+}
+
+p.article {
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  font-size: 24px;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+
 footer {
   border-top: 1px solid #eee;
   display: block;
@@ -1973,7 +1988,7 @@ footer .logo {
 }
 
 .loader .loader-logo {
-	background: url('../images/lgoo.svg') 50% 50% no-repeat rgba(255,255,255,1);
+	background: url('../images/thadeu.png') 50% 50% no-repeat rgba(255,255,255,1);
   background-size: 20% auto;
   position: fixed;
 	left: 0px;
